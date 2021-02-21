@@ -12,11 +12,12 @@
 }
 body{
     margin-top: 36px;
-    margin-left: 120px;
-    margin-right: 120px;
+
 }
 
 header {
+    margin-left: 25%;
+    margin-right: 25%;
     display: grid;
     grid-template-columns: auto 1fr;
     
@@ -34,6 +35,8 @@ header {
 }
 
 #Wrapper{
+    align-items: center;
+    justify-content: center;
     background-color: #FBDFDB;
     margin-top: 36px;
     width: 940px;
@@ -56,4 +59,58 @@ header {
 
 #Wrappertext p{
     opacity: 0.7;
+}
+
+h2{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;;
+}
+/* ==== CARDS ====*/
+
+.cards{
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.card__image img{
+    border-radius: 15px;
+    width: 300px;
+    size: 140px;
+}
+
+.card__title{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #111111;
+}
+
+.card__autor{
+    font-size: 14px;
+    color: #777777;
+    ;
+}
+
+/* === Footer ===*/
+
+footer{
+    margin-top: 50px;
+    background-color: #EEEEEE;
+    height: 62px;
+    width: 100%;
+}
+
+footer p{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
 }
