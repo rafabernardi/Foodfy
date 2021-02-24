@@ -4,9 +4,11 @@ const cards = document.querySelectorAll('.card');
 
 for (let card of cards) {
 card.addEventListener("click", function(){
-    const videoId = card.querySelector('img').src
+    const imgSrc = card.querySelector('img').src
     modalOverlay.classList.add('active')
-    modalOverlay.querySelector("img").src = videoId
+    modalOverlay.querySelector("img").src = imgSrc
+    modalOverlay.querySelector(".modal-content").insertAdjacentElement("beforeend", card.querySelector('.card__title'))
+
 })
 }
 
