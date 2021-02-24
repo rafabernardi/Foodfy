@@ -181,8 +181,20 @@ header {
     border-radius: 15px;
     top: 5%;
     left: 5%;
-    
+}
 
+#title {
+    font: 28px bold;
+    text-align: center;
+    padding-top: 250px
+
+}
+
+
+#autor{
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
 }
 
 
